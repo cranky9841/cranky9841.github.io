@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web production</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+	<!-- home -->
+<div class="header">  
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a class="active" href="accessories.html">Accessories</a>
+    <a href="contact.html">Contact Us</a> 
+  </div>
+</div>
+
+
+<!-- <style>
+.mySlides {display:none;}
+</style> -->
+
+
+<div class="slideshow">
+	<img class="mySlides" src="images/accessories/1.jpg" >
+	<img class="mySlides" src="images/accessories/2.jpg" >
+	<img class="mySlides" src="images/accessories/3.jpg" >
+	<img class="mySlides" src="images/accessories/4.jpg" >
+	<img class="mySlides" src="images/accessories/5.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!-- slider -->
+
+<!-- accessories -->
+<section id="accessories">
+		<div class="container">
+			<div class="section-header">
+				<h2>accessories</h2>
+				<div class="subheading">List Of Avilable Accessories</div>
+			</div>
+			<div class="projects">
+				<div class="row">
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/1.jpg" width="308" height="218" alt="Project1"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/2.jpg" width="308" height="218" alt="Project2"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/3.jpg" width="308" height="218" alt="Project1"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/4.jpg" width="308" height="218" alt="Project2"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/5.jpg" width="308" height="218" alt="Project1"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/1.jpg" width="308" height="218" alt="Project2"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/2.jpg" width="308" height="218" alt="Project1"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="project">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/accessories/3.jpg" width="308" height="218" alt="Project2"></a>
+							<h4>Project Heading</h4>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum</p>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /#accessories -->
+
+
+<!-- Footer -->
+<footer>
+	<div class="container3">
+			<!-- <div class="row4"> -->
+				<div class="col">Designed By: Biplov Shreshta</div>
+				<div class="col-right">Copyright©2018. All Right reserved to bikemartnepal.</div>
+				<div class="clearfix"></div>
+			<!-- </div> -->
+	</div>
+</footer>
+
+
+
+
+
+</body>
+</html>

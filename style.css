@@ -1,0 +1,256 @@
+/*Menu CSS*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	/*padding-top: 5px;*/
+}
+.float-left{float: left;}
+.clearfix{clear: both;}
+.col{padding: 0 15px; float: right;}
+h1{font-size: 30px}
+h2, nav a{font-family: 'Open Sans', sans-serif; font-size: 36px; font-weight: bold; text-transform: uppercase;}
+h4{font-size: 18px}
+h3
+{ font-size: 140%;
+  padding: 5px 0 0 0;}
+
+
+
+
+body { 
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #555555;
+  padding: 10px 10px;
+  width: 100%;
+  position: fixed;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 10px;
+  border-radius: 4px;
+  margin-right: 30px;
+  display: block;
+}
+
+.header a:hover {
+  background-color: #111;
+  /*color: black;*/
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+/*common section css*/
+.section-header{
+	text-align: center;
+	/*margin-bottom: 5px*/
+}
+
+/*Slider*/
+.slideshow {
+	/*position: relative;*/
+	overflow: hidden;
+	width: inherit;
+	height: 500px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.slideshow >img {
+    height: 100%;
+    width: 100%;
+}
+
+/*Slider*/
+
+
+/*Review css*/
+.box2{
+	width: 100%;
+	padding: 15px;
+}
+
+#review{
+	background: #55555d;
+	padding-bottom: 50px
+}
+#review .collection{
+	width: 25%;
+}
+/*.bikes{
+	text-align: center;
+}*/
+.model{
+	margin-bottom: 50px
+}
+.model h4{
+	margin: 16px 0 12px
+	text: white;
+}
+.collection{
+	padding: 0 15px;
+	float: right;
+}
+.row2{
+	margin: 0 -15px;
+}
+
+/*Contact Us*/
+
+#site_content
+{ 
+	width: 90%;
+  	overflow: hidden;
+  	margin: 20px auto 0 auto;
+  	/*padding: 0 0 10px 0;*/
+  	padding-top: 5%;
+  } 
+
+#sidebar_container
+{ 
+  float: right;
+  width: 224px;
+}
+
+.sidebar_top
+{ 
+  width: 222px;
+  height: 14px;
+  background: transparent url(side_top.png) no-repeat;
+}
+
+.sidebar_base
+{ 
+  width: 222px;
+  height: 14px;
+  background: url(side_base.png) no-repeat;
+}
+
+.sidebar
+{ 
+  float: right;
+  width: 222px;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.sidebar_item
+{ 
+  background: url(side_back.png) repeat-y;
+  padding: 0 15px;
+  width: 192px;
+}
+
+#content
+{ text-align: left;
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: left;}
+  
+/*Contact Us*/
+
+/*accessories css*/
+#accessories{
+	background: #55555d;
+	padding-bottom: 50px
+}
+#accessories .col{
+	width: 25%
+}
+.projects{
+	text-align: center;
+}
+.project{
+	margin-bottom: 50px
+}
+.project h4{
+	margin: 16px 0 12px
+}
+
+
+/*contact css*/
+#contact .col2{
+	width: 50%
+}
+.col2{padding: 0 15px 10px; float: right;}
+/*#contact .row{
+	float: right;
+}*/
+#contact input{
+	height: 40px
+}
+#contact input, #contact textarea{
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 16px;
+	margin-bottom: 25px;
+}
+.btn
+{
+	height: 36px;
+	background: #2862b1;
+	color: #fff;
+	line-height: 36px;
+	padding: 0 10px;
+	border-radius: 4px;
+	text-align: center;
+}
+button{
+	cursor: pointer;
+}
+
+.social-icons li, .social-icons a{
+	display: inline-block;
+}
+.social-icons li+li{
+	margin-right: 8px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/*footer css*/
+footer{
+	background: /*#eee*/#88888b;
+	padding: 5px 0;
+}
+

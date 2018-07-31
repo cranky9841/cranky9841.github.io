@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web production</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="readmore.css">
+</head>
+<body>
+
+	<!-- home -->
+<div class="header">  
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="accessories.html">Accessories</a>
+    <a href="contact.html">Contact Us</a>   
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<!-- <style>
+.mySlides {display:none;}
+</style> -->
+
+
+<div class="slideshow">
+	<img class="mySlides" src="images/1.jpg" >
+	<img class="mySlides" src="images/2.jpg" >
+	<img class="mySlides" src="images/3.jpg" >
+	<img class="mySlides" src="images/4.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!-- review -->
+
+<section id="review">
+		<div class="box2">
+			<div class="section-header">
+				<h2>MOTORCYCLE REVIEWS</h2>
+				<!-- <div class="subheading">List of my design</div> -->
+			</div>
+			<div class="bikes">
+				<div class="row2">
+					<div class="collection">
+						<div class="model">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/Mv Agusta.jpg" width="308" height="218" alt="Project1"></a>
+							<h4>MV Agusta</h4>
+		<article>
+        <input type="checkbox" id="read_more1" role="button"/>
+        <label for="read_more1" onclick=""><span>Read More</span><span>Hide</span></label>     
+        <section>
+							<p>Last December, about a month after EICMA, I talked to MV Agusta’s new team, represented by Giovanni Castiglioni and his new partner, Timur Sardorov, a young Russian entrepreneur operating in the financial arena of the City of London.</p>
+        </section> 
+        <section>
+            				<p>During the interview the two were extremely enthusiastic about the new Turismo Veloce model. Given the very limited sales numbers the previous edition had collected, I asked myself where all that enthusiasm was coming from. </p>
+        </section>
+    	</article>
+						</div>
+					</div>
+					<div class="collection">
+						<div class="model">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/2019 KTM 250 SX-F.jpg" width="308" height="218" alt="Project2"></a>
+							<h4>2019 KTM 250 SX-F</h4>
+		<article>
+        <input type="checkbox" id="read_more2" role="button"/>
+        <label for="read_more2" onclick=""><span>Read More</span><span>Hide</span></label>     
+        <section>
+							<p>New bike season is upon us and our first intro of the year was with KTM at Chaney Ranch MX in Warner Springs, California, to test the new 2019 350 SX-F. The bike features several updates to the engine, suspension, and chassis,so we were</p>
+        </section> 
+        <section>			 
+        					<p> excited to put the midsize orange motocrosser to the test at one of Southern California’s most 	unique and picturesque tracks. The conditions were a bit on the dry side, but we still got a good idea of how the changes affect the 2019 model.</p>
+        </section>
+    	</article>
+						</div>
+					</div>
+					<div class="collection">
+						<div class="model">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/1997 Dyna.jpg" width="308" height="218" alt="Project1"></a>
+							<h4>1997 Dyna Convertible</h4>
+		<article>
+        <input type="checkbox" id="read_more3" role="button"/>
+        <label for="read_more3" onclick=""><span>Read More</span><span>Hide</span></label>     
+        <section>
+							<p>There’s no question who is the ultimate arbiter of new-bike design at Harley-Davidson: Willie G. and Louie Netz in the styling department swing the big stick. Harley’s engineers may know that longer suspension travel will produce a better ride,
+		</p>
+        </section> 
+        <section>			 
+        					<p>that a bigger airbox and mufflers will produce more power, or that a particular frame design is stronger and lighter than an alternative; but if that “superior” design doesn’t produce The Look, that all-American-Harley image the styling department wants to create, it will rarely find its way into production.</p>
+        </section>
+    	</article>
+						</div>
+					</div>
+					<div class="collection">
+						<div class="model">
+							<a href="#" target="_blank"><img class="img-thumb" src="images/Yamaha Neken.jpg" width="308" height="218" alt="Project2"></a>
+							<h4>Yamaha’s Niken</h4>
+		<article>
+        <input type="checkbox" id="read_more4" role="button"/>
+        <label for="read_more4" onclick=""><span>Read More</span><span>Hide</span></label>     
+        <section>
+							<p>Long before I rode the three-wheeled Niken over Austria’s legendarily twisty Grossglockner Pass at breakneck speeds or even saw the bike in person, I knew it was good at one thing: raising eyebrows. We motorcyclists are a skeptical, conservative
+							</p>
+        </section> 
+        <section>			 
+        					<p>bunch (even if we like to think otherwise), and something as unconventional as the Niken is bound to prompt loads of questions. What is it, what’s it like to ride, who is it for, and perhaps most importantly, what’s the point?</p>
+        </section>
+    	</article>
+						</div>
+					</div>
+				</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Footer -->
+<footer>
+	<div class="container3">
+			<!-- <div class="row4"> -->
+				<div class="col">Designed By: Biplov Shreshta</div>
+				<div class="col-right">Copyright©2018. All Right reserved to bikemartnepal.</div>
+				<div class="clearfix"></div>
+			<!-- </div> -->
+	</div>
+</footer>
+
+
+
+
+
+</body>
+</html>
